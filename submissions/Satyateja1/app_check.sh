@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "=== System Health Inspection Banner ==="
+echo "=== Version 2.0-Team Alpha ==="
 
 RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com)
 echo "API HTTP Status Code: $RESPONSE"
