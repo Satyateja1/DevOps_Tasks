@@ -1,6 +1,4 @@
-#!/bin/bash
-echo "=== Version 2.0-Team Alpha ==="
-
+echo Version 2.0-Team Beta
 RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com)
 echo "API HTTP Status Code: $RESPONSE"
 
